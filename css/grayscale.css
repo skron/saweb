@@ -99,7 +99,7 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         background: #fff 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -137,11 +137,11 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #b14401;
-  background: #fff;
-  
+  background: #fff !important;
 }
 
 .intro-body {
+  display: table-cell;
   vertical-align: middle;
 }
 
@@ -154,6 +154,8 @@ a:focus {
   width: 100%;
   height: 100%;
   padding: 0 0;
+  background: url('../story.jpg') 50% 50% no-repeat;
+  background-size: cover;
 }
 
 .story-body {
@@ -218,7 +220,7 @@ a:focus {
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding-top: 90px;
+        padding-top: 70px;
     }
 
     .brand-heading {
@@ -358,11 +360,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 128px;
+        padding-top: 96px;
         padding-bottom: 64px;
     }
 
-    .download-section {
+    #kontakt .content-section {
         padding: 64px 0;
     }
 }
@@ -459,7 +461,7 @@ body {
 }
 
 .img-wrapper {
-  margin: 0 0 96px 0;
+  margin: 0 0 64px 0;
 }
 
 .citace, .mt28 {
@@ -488,4 +490,44 @@ text-decoration: underline;
 
 #kontakt .img-wrapper {
   margin-bottom: 28px;
+}
+
+#kontakt h4 {
+  margin-bottom: 0;
+  line-height: 32px;
+}
+
+#top-link-block {
+  font-size: 32px;
+  line-height: 32px;
+  opacity: 0.35;
+}
+
+#top-link-block:hover {
+  opacity: 0.8;
+}
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px;
+    right: 10px;
+    color: red;
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 20px;
+    right: 20px;
+    color: red;
+}
+
+a.hover-shadow {
+  margin-bottom: 32px;
+}
+
+.carousel .carousel-control, .carousel .carousel-indicators {
+  visibility: hidden;
+}
+
+#carousel-stores .carousel-control {
+  visibility: visible;
 }
