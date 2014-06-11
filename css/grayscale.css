@@ -73,6 +73,10 @@ a:focus {
     color: #fff !important;
 }
 
+.top-nav-collapse .dropdown-menu a {
+    color: #4f4d4e !important;
+}
+
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -528,6 +532,16 @@ a.hover-shadow {
   visibility: hidden;
 }
 
+#carousel-stores {
+  margin: 32px 0 64px;
+}
+
 #carousel-stores .carousel-control {
   visibility: visible;
+}
+
+.social {
+  font-size: 32px;
+  margin-left: 16px;
+  vertical-align: bottom;
 }
