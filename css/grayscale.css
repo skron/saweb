@@ -34,10 +34,7 @@ p {
 }
 
 a {
-    color: #fff;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+  color: #fff;
 }
 
 a:hover,
@@ -257,10 +254,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #555252;
     border-radius: 35px;
     font-size: 40px;
-    color: #ccc;
+    color: #555252;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -277,7 +274,7 @@ a:focus {
 .btn-circle.gray:hover,
 .btn-circle.gray:focus {
     outline: 0;
-    color: #ccc;
+    color: #555252;
     background: rgba(204,204,204,.2);
 }
 
@@ -497,7 +494,7 @@ text-decoration: underline;
 }
 
 #kontakt h4 {
-  margin-bottom: 0;
+  margin: 32px 0 0 0;
   line-height: 32px;
 }
 
@@ -544,4 +541,12 @@ a.hover-shadow {
   font-size: 32px;
   margin-left: 16px;
   vertical-align: bottom;
+}
+
+.social:hover > .fa-facebook-square, .social:focus > .fa-facebook-square {
+  color: #3B5998;
+}
+
+.social:hover > .fa-google-plus-square, .social:focus > .fa-google-plus-square {
+  color: #d34836;
 }
